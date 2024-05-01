@@ -101,6 +101,107 @@
           </div>
         </div>
     </section>
+    <section class="carousel">
+      <h2 class="carousel__title">Mais vendidos</h2>
+      <!-- Slider main container -->
+        <div class="swiper">
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="img/ApacheKafka.png" alt="livro"> </div>
+            <div class="swiper-slide"><img src="img/Javascript.png" alt="livro"> </div>
+            <div class="swiper-slide"><img src="img/Portugol.png" alt="livro"> </div>
+            <div class="swiper-slide"><img src="img/Nodejs.png" alt="livro"> </div>
+            <div class="swiper-slide"><img src="img/Arquitetura.png" alt="livro"> </div>
+          </div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+          <!-- If we need scrollbar -->
+          <div class="swiper-scrollbar"></div>
+        </div>
+        <div class="card">
+          <div class="card__desc">
+            <div class="desc">
+              <div class="desc__stars">
+                  <img src="img/Star.svg" alt="icone de estrela">
+                  <img src="img/Star.svg" alt="icone de estrela">
+                  <img src="img/Star.svg" alt="icone de estrela">
+                  <img src="img/Star.svg" alt="icone de estrela">
+                  <img src="img/Star.svg" alt="icone de estrela">
+                </ul>
+              </div>
+              <h3 class="desc__title">
+                Autora do Mês
+              </h3>
+              <h2 class="desc__book-title">
+                Juliana Agarikov
+              </h2>
+              <p class="desc_text">
+                Analista de sistemas e escritora, Juliana é especialista em Front-End. 
+              </p>
+            </div>
+            <img src="img/Perfil-escritora.png" class="desc__img" alt="logo do Angular">
+          </div>
+          <div class="card__buttons">
+            <ul class="buttons">
+              <li class="buttons__item"><img src="img/Favoritos.svg" alt="Favoritar item"></li>
+              <li class="buttons__item"><img src="img/Compras.svg" alt="Adicionar item ao carrinho de com"</li>
+            </ul>
+            <a href="#" class="button_anc">Saiba mais</a>
+          </div>
+        </div>
+    </section>
+    <section class="topics">
+      <h2 class="topics__title">TÓPICOS VISITADOS RECENTEMENTE</h2>
+      <ul class="topics__list">
+        <li class="topics__item">
+          <a href="#" class="tipics__link">Android</a>
+        </li>
+        <li class="topics__item">
+          <a href="#" class="tipics__link">Android</a>
+        </li>
+        <li class="topics__item">
+          <a href="#" class="tipics__link">Android</a>
+        </li>
+        <li class="topics__item">
+          <a href="#" class="tipics__link">Marketing Digital</a>
+        </li>
+        <li class="topics__item">
+          <a href="#" class="tipics__link">Agile</a>
+        </li>
+        <li class="topics__item">
+          <a href="#" class="tipics__link">Startups</a>
+        </li>
+        <li class="topics__item">
+          <a href="#" class="tipics__link">HTML & CSS</a>
+        </li>
+        <li class="topics__item">
+          <a href="#" class="tipics__link">Python</a>
+        </li>
+        <li class="topics__item">
+          <a href="#" class="tipics__link">OO</a>
+        </li>
+        <li class="topics__item">
+          <a href="#" class="tipics__link">Java</a>
+        </li>
+      </ul>
+    </section>
+    <section class="contact">
+      <h2 class="contact__title">Fique por dentro das novidades!</h2>
+      <p class="contact__text">
+        Atualizações de e-books, novos livros, promoções e outros.
+      </p>
+      <input type="email" placeholder="Cadastre seu e-mail" class="contact__email">
+    </section>
+    <hr/>
+    <footer class="footer">
+      <h2 class="footer__title">Grupo Alura</h2>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
       const swiper = new Swiper('.swiper', {

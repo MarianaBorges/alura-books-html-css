@@ -71,3 +71,10 @@
     font-weight: 700;
     text-decoration: none;
 }
+
+.desc__stars {
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+    margin-bottom: 8px;
+}
