@@ -28,6 +28,10 @@
     font-size: 14px;
     font-weight: 700;
 }
+.topics__link:hover {
+    color: var(--orange);
+    background-color: var(--white);
+}
 
 @media screen and (min-width: 1024px) {
     .topics__title {
@@ -36,5 +40,11 @@
 
     .topics__link {
         font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .topics {
+        padding: 3em 20vw;
     }
 }

@@ -79,6 +79,10 @@
     margin-bottom: 8px;
 }
 
+.button_anc:active {
+    background-color: var(--blue);
+}
+
 @media screen and (min-width: 1024px) {
     .carousel__title {
         font-size: 26px;
@@ -103,4 +107,37 @@
         margin: 2em auto;
     }
 
+}
+
+@media screen and (min-width: 1728px) {
+    .carousel__container {
+        display: flex;
+        margin: 0 20vw 3em 20vw;
+        align-items: center;
+    }
+
+    .swiper-pagination {
+        margin: 0;
+    }
+
+    .swiper {
+        width: 50%;
+    }
+
+    .desc__title {
+        font-size: 32px;
+    }
+
+    .desc_text {
+        font-size: 16px;
+    }
+
+    .desc {
+        margin-right: 2em;
+    }
+
+    .card {
+        width: 60%;
+        margin-left: 3em;
+    }
 }
